@@ -43,7 +43,7 @@ export default function App() {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
              <div className="w-10 h-10 flex items-center justify-center">
-                <img src="logo.svg" alt="Logo" className="w-full h-full object-contain" />
+                <img src="/logo.svg" alt="Logo" className="w-full h-full object-contain" />
              </div>
              <span className="text-xl font-bold text-white">行韋邏輯</span>
           </div>
