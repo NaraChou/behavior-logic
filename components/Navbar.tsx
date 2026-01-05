@@ -33,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage, isMenuOpen, 
           onClick={() => setActivePage('home')}
         >
           <div className="relative w-12 h-12 flex items-center justify-center transition-all duration-300 hover:scale-105">
-             <img src="logo.svg" alt="行韋邏輯 Logo" className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]" />
+             <img src="logo.png" alt="行韋邏輯 Logo" className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]" />
           </div>
           <span className="text-2xl font-bold tracking-wide text-white">
             行韋邏輯 <span className="text-cyan-400">.</span>
