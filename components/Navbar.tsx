@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Lightbulb, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 interface NavbarProps {
   activePage: string;
@@ -32,8 +32,8 @@ const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage, isMenuOpen, 
           className="flex items-center gap-3 cursor-pointer group" 
           onClick={() => setActivePage('home')}
         >
-          <div className="relative w-10 h-10 flex items-center justify-center bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-500/40 transition-all duration-300">
-             <Lightbulb className="text-white w-6 h-6" />
+          <div className="relative w-12 h-12 flex items-center justify-center transition-all duration-300 hover:scale-105">
+             <img src="logo.svg" alt="行韋邏輯 Logo" className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(34,211,238,0.4)]" />
           </div>
           <span className="text-2xl font-bold tracking-wide text-white">
             行韋邏輯 <span className="text-cyan-400">.</span>

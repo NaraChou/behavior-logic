@@ -38,7 +38,7 @@ const ServicesPage: React.FC = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, idx) => (
-            <div key={idx} className="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-cyan-500/50 hover:bg-slate-800/50 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/10 animate-fade-in-up" style={{ animationDelay: `${idx * 100}ms` }}>
+            <div key={idx} className="group px-8 py-4 rounded-2xl bg-slate-900 border border-slate-800 hover:border-cyan-500/50 hover:bg-slate-800/50 transition-all duration-300 hover:shadow-2xl hover:shadow-cyan-500/10 animate-fade-in-up" style={{ animationDelay: `${idx * 100}ms` }}>
               <div className="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center text-cyan-400 mb-6 group-hover:scale-110 group-hover:bg-cyan-500/20 transition-all duration-300">
                 {service.icon}
               </div>

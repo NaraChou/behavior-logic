@@ -5,7 +5,6 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
-import { Lightbulb } from 'lucide-react';
 
 export default function App() {
   const [activePage, setActivePage] = useState<string>('home');
@@ -43,8 +42,8 @@ export default function App() {
       <footer className="bg-slate-950 border-t border-slate-900 py-12 px-6 lg:px-[60px]">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
-             <div className="w-8 h-8 flex items-center justify-center bg-cyan-600 rounded-lg">
-                <Lightbulb className="text-white w-4 h-4" />
+             <div className="w-10 h-10 flex items-center justify-center">
+                <img src="logo.svg" alt="Logo" className="w-full h-full object-contain" />
              </div>
              <span className="text-xl font-bold text-white">行韋邏輯</span>
           </div>
