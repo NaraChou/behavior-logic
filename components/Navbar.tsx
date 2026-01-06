@@ -60,8 +60,9 @@ const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage, isMenuOpen, 
         </div>
 
         <button 
-          className="lg:hidden text-white p-2 rounded-lg hover:bg-white/10 transition-colors"
+          className="lg:hidden text-white p-3 rounded-lg hover:bg-white/10 transition-colors"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={isMenuOpen ? "關閉選單" : "開啟選單"}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>

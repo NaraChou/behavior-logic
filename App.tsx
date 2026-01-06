@@ -25,7 +25,7 @@ export default function App() {
   }, [activePage]);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-cyan-500/30 selection:text-white relative">
+    <div className="min-h-screen min-w-[320px] bg-slate-950 text-slate-200 font-sans selection:bg-cyan-500/30 selection:text-white relative overflow-x-hidden">
       <Navbar 
         activePage={activePage} 
         setActivePage={setActivePage}

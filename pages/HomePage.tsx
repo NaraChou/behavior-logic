@@ -37,7 +37,7 @@ const HomePage: React.FC<HomePageProps> = ({ setActivePage }) => (
           </button>
         </div>
 
-        <div className="grid grid-cols-3 gap-6 pt-8 border-t border-slate-700/50">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-700/50">
           <div className="group">
             <div className="mb-3 text-cyan-400 transition-transform group-hover:-translate-y-1 duration-300">
                <BookOpen size={32} strokeWidth={1.5} className="drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]"/>
